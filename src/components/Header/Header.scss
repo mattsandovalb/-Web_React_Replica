@@ -1,0 +1,39 @@
+
+
+$letter-color:#FFFF;
+$background-color:#2F303A;
+$font: 'Poppins', sans-serif;
+header{
+    width: 100%;
+    height: 10vh;
+}
+
+.general_nav{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: $background-color;
+    position: sticky;
+}
+.logo_div{
+    width: 50%;
+    display: flex;
+    text-align: center;
+    background-color: red;
+}
+h1{
+    text-align: center;
+    color: $letter-color;
+    font-family: $font;
+}
+.navbar_div{
+    background-color: green;
+    width: 50%;
+    color: $letter-color;
+    font-family: $font;
+}
+ul li{
+    list-style: none;
+    text-decoration: none;
+}
