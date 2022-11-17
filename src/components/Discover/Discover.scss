@@ -1,0 +1,80 @@
+$background-color: #2f303a;
+$blue-circle: #303047;
+$red-circle: #412c41;
+$white: #ffff;
+$font: "Poppins", sans-serif;
+$card-color: #211f27;
+
+body {
+  background-color: $background-color;
+}
+.discover_sec {
+  width: 100%;
+  height: 85vh;
+  background-color: $background-color;
+  display: block;
+}
+
+.global_div{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.discover_div{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+    align-items:end;
+    color: $white;
+}
+.discover_title{
+    font-size: 50px;
+    font-family: $font;
+}
+
+.cards_div{
+    display: flex;
+    width: 50%;
+    height: 15%;
+    margin-right: 17%;
+}
+.car{
+    width: 100%;
+    height: 100%;
+    background-color: $card-color;
+    color: $white;
+}
+.info_card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:10%;
+    font-family: $font;
+}
+.icon{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.text{
+    font-family: $font;
+    font-size: 15px;
+    margin-top: 5%;
+}
+
+
+
+.covers_div{
+    width: 50%;
+    height: 100%;
+    
+    display: flex;
+    align-items: center;
+}
+.cover{
+    width: 40%;
+    
+}
