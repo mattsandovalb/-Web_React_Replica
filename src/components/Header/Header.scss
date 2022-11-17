@@ -9,7 +9,8 @@ body {
 header {
   width: 100%;
   height: 15vh;
-  position: sticky;
+  position: sticky; 
+  background-color: $background-color;
 }
 
 .general_nav {
@@ -17,7 +18,7 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  background-color: $background-color;
+  z-index: 999;
   position: sticky;
 }
 .logo_div {

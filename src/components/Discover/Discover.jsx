@@ -42,6 +42,7 @@ const Discover = () => {
         </div>
       </div>
     </section>
+    
   );
 };
 
