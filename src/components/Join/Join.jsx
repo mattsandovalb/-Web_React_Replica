@@ -1,10 +1,13 @@
 import React from "react";
 import "../Join/Join.scss";
 import Footer from "../Footer/Footer";
+import Header from "../Header/Header";
+
 const Join = () => {
   return (
     <section className="join_section">
-        <div className="red"></div>
+    <Header/>
+        {/* <div className="red"></div> */}
         <div className="blue"></div>
       <div className="join_div gap-5">
         <div className="infor_div">

@@ -1,14 +1,17 @@
 import React from "react";
+import Footer from "../Footer/Footer";
 import "../Discover/Discover.scss";
 import mic from "../../assets/img/microphone.svg";
 import covers from "../../assets/img/covers.jpg";
 import albums from "../../assets/img/albums.svg";
 import more from "../../assets/img/more.svg";
+import Header from "../Header/Header";
 
 
 const Discover = () => {
   return (
     <section className="discover_sec ">
+    <Header/>
       <div className="global_div gap-5">
         <div className="discover_div">
           <h3 className="discover_title">Discover new music</h3>
@@ -41,8 +44,8 @@ const Discover = () => {
           <img className="cover" src={covers}></img>
         </div>
       </div>
+      <Footer/>
     </section>
-    
   );
 };
 
